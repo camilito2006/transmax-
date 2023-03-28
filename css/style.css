@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+#botones{
+    width: 100%;
+   min-height:  100vh ;
+    text-align: center;
+    padding: 100PX 50PX;
+    background: url("../img/markus-laanisto-Hu6wyYsUeds-unsplash.jpg");
+    background-size: cover;
+}
+#botones button{
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 15PX;
+    margin: 15px;
+    font-family: cursive;
+    transition:.5s;
+}
+#botones h1{
+ 
+color: black;
+font-size: 40px;
+
+}
+body{
+    font-family: 'Tilt Prism', cursive;
+}
+#botones button:hover{
+    background: #fff;
+    color: #000;
+    padding: 14px 50px;
+}
+
+
+
+
+
+/* estilos ejercicio figura */
+#contPrincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: #000;
+
+
+
+}
+#contPrincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid blue;
+    color: yellowgreen;
+
+    
+
+
+
+
+}
+
+
+#contFigura {
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid blue;
+    color: yellowgreen;
+}
+
+
+#figura{
+    width: 200px;
+    height: 200PX;
+    background:#fff;
+    margin: 48PX auto;
+    transition: .5S;
+
+}
+
+
+
+#figura.circulo{
+    border-radius: 50%;
+}
+#figura.Rectangulo{
+    width: 400px;
+    transition: .5s;
+}
+#figura.Rombo{
+    transform: rotate(45deg);
+
+}
+
+#figura.Gif{
+    background: url("../img/iJb.gif");
+    background-size: cover;
+}
+#figura.Izquierda{
+    transform: translateX(-200PX);
+    
+}
+
+#figura.Derecha{
+    transform: translateX(200px);
+}
+
+#figura.Arriba{
+    transform: translateY(-200PX);
+}
+
+#figura.Abajo{
+    transform: translateY(200px);
+}
+
+
+#figura.Diagonal{
+   transition: .5s;
+   transform: translate(200px, 200px);
+}
+
+
+
